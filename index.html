@@ -1,1 +1,85 @@
-It works!
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title> Coupons Data - An Analysis </title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">ReconnectingDots</a>    
+        </div>
+      </nav>
+    <div class="container">
+
+      <table class="table">
+          <tr>
+            <th></th>
+            <th>2014</th>
+            <th></th>
+            <th>2015</th>
+            <th></th>
+            <th>2016</th>
+          </tr>
+          <tr>
+            <td><h2>Campaigns Created</h2></td>
+            <td>8699</td>
+            <td><i class="fa fa-level-down" aria-hidden="true"></i></td>
+            <td>4165</td>
+            <td><i class="fa fa-level-down" aria-hidden="true"></i></td>
+            <td>1378</td>
+          </tr>
+          <tr>
+            <td><h2>Coupons Redeemed</h1></td>
+            <td>260329</td>
+            <td><i class="fa fa-level-up" aria-hidden="true"></i></td>
+            <td>1037973</td>
+            <td><i class="fa fa-level-up" aria-hidden="true"></i></td>
+            <td>663559</td>
+          </tr>
+          <tr>
+            <td><h2>Coupons Discount</h2></td>
+            <td>41801764 <i class="fa fa-usd" aria-hidden="true"></i></td>
+            <td><i class="fa fa-level-up" aria-hidden="true"></i></td>
+            <td>59416651 <i class="fa fa-usd" aria-hidden="true"></i></td>
+            <td><i class="fa fa-level-up" aria-hidden="true"></i></td>
+            <td>30291111 <i class="fa fa-usd" aria-hidden="true"></i></td>
+          </tr>          
+          <tr>
+            <td><h2>Booking Value</h2></td>
+            <td>283345572 <i class="fa fa-usd" aria-hidden="true"></i></td>
+            <td><i class="fa fa-level-up" aria-hidden="true"></i></td>
+            <td>397303965 <i class="fa fa-usd" aria-hidden="true"></i></td>
+            <td><i class="fa fa-level-up" aria-hidden="true"></i></td>
+            <td>240639486 <i class="fa fa-usd" aria-hidden="true"></i></td>
+          </tr> 
+      </table>
+
+      <div id="campaignGraph" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+      <div id="couponGraph" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    </div>
+    <footer class="footer">
+      <p>&copy; 2016 Raman Guleria</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
